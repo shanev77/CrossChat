@@ -1,6 +1,6 @@
 AI Cross-Chat GUI (Bob ↔ Jane)
 
-A desktop GUI application that lets you run two Ollama servers as conversational agents (e.g., Bob on AIHub and Jane on NODE01) and watch them debate, discuss, or collaborate on any topic you choose.
+I started originally with a command line version but grew into a desktop GUI application that lets you run two Ollama servers as conversational agents (e.g., Bob on AIHub and Jane on NODE01) and watch them debate, discuss, or collaborate on any topic you choose.
 Instead of juggling terminal commands, this tool provides a clean interface with buttons, text fields, and live conversation output.
 
 This project was born from my home Kubernetes cluster, where I run multiple Ollama instances across different nodes.
