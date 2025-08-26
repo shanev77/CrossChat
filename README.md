@@ -53,7 +53,7 @@ pip install requests
 
 🖥 Usage
 
-Start your Ollama servers on AIHub and NODE01 (k8s, docker, or bare-metal).
+Start your Ollama servers on AIHub and NODE01 or whereever you are running the 2 ollama server (k8s, docker, or bare-metal).
 Enter their URLs (e.g. http://192.168.0.10:11434, http://192.168.0.16:31135).
 Click Fetch Models for both sides.
 Select Bob’s and Jane’s models from the drop-downs.
