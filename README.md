@@ -40,7 +40,7 @@ Friendly error messages instead of stack traces.
 Conversation stops cleanly if one side fails.
 Extensible Personas
 Default names are Bob (AIHub) and Jane (NODE01).
-Natural introductions — avoids AI “I’m a model trained on…” talk.
+Natural introductions - avoids AI “I’m a model trained on…” talk.
 
 - Getting Started
 
@@ -60,7 +60,7 @@ Select Bob’s and Jane’s models from the drop-downs.
 (Optional) Download a model with the Download Model button.
 Enter a Topic for discussion.
 Adjust parameters (turns, temperature, etc.).
-Click Start — watch the conversation unfold in real time.
+Click Start and watch the conversation unfold in real time.
 Transcript saved to file automatically.
 
 - Example Transcript
