@@ -15,7 +15,7 @@ Define a topic and let them discuss it turn by turn.
 Save the whole conversation as a transcript for later.
 This makes it easy to explore how different models respond to the same topics, compare performance across hardware, and just enjoy watching two LLMs debate through my Kubernetes cluster.
 
-✨ Features
+- Features
 
 Two-Bot Conversations
 Pick any two Ollama models and let them chat back and forth automatically.
@@ -42,7 +42,7 @@ Extensible Personas
 Default names are Bob (AIHub) and Jane (NODE01).
 Natural introductions — avoids AI “I’m a model trained on…” talk.
 
-🚀 Getting Started
+- Getting Started
 
 Prerequisites
 
@@ -51,7 +51,7 @@ Python 3.9+
 pip install requests
 
 
-🖥 Usage
+- Usage
 
 Start your Ollama servers on AIHub and NODE01 or whereever you are running the 2 ollama server (k8s, docker, or bare-metal).
 Enter their URLs (e.g. http://192.168.0.10:11434, http://192.168.0.16:31135).
@@ -63,27 +63,27 @@ Adjust parameters (turns, temperature, etc.).
 Click Start — watch the conversation unfold in real time.
 Transcript saved to file automatically.
 
-📂 Example Transcript
+- Example Transcript
 [Bob / llama3.2:1b]
 Hello Jane, nice to meet you. Do you think humans are worthy of being on planet Earth?
 
 [Jane / granite3.1-moe:1b]
 Hello Bob, that’s a big question! I’d say worthiness depends on how we treat our planet...
 
-⚠️ Notes
+- Notes
 
 First reply from a model may take time (loading/quantizing).
 Keep Num Predict small (150–300) to avoid long stalls.
 Increase Timeout if models are slow on your hardware.
 Use Retries/Backoff for more robust runs.
 
-🛠 Future Improvements
+- Future Improvements
 
 Add a health check button (pings both servers before starting).
 Option to assign custom personas beyond Bob/Jane.
 Support for multiple back-and-forth conversations in tabs.
 Export transcripts to Markdown or HTML.
 
-📜 License
+- License
 
 MIT License — free to use and modify.
