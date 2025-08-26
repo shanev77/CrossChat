@@ -3,6 +3,18 @@ AI Cross-Chat GUI (Bob ↔ Jane)
 A desktop GUI application that lets you run two Ollama servers as conversational agents (e.g., Bob on AIHub and Jane on NODE01) and watch them debate, discuss, or collaborate on any topic you choose.
 Instead of juggling terminal commands, this tool provides a clean interface with buttons, text fields, and live conversation output.
 
+This project was born from my home Kubernetes cluster, where I run multiple Ollama instances across different nodes.
+
+AIHub (x86 node in the cluster) runs one Ollama instance.
+NODE01 (Raspberry Pi 5 node) runs another Ollama instance.
+
+The AI Cross-Chat GUI lets me connect to both of these Ollama endpoints and have them converse with each other automatically. Instead of typing curl requests or juggling terminal sessions, this app provides a friendly GUI where you can:
+Fetch models from each node.
+Choose which model Bob (AIHub) and Jane (NODE01) should use.
+Define a topic and let them discuss it turn by turn.
+Save the whole conversation as a transcript for later.
+This makes it easy to explore how different models respond to the same topics, compare performance across hardware, and just enjoy watching two LLMs debate through my Kubernetes cluster.
+
 ✨ Features
 
 Two-Bot Conversations
@@ -38,10 +50,6 @@ Python 3.9+
 
 pip install requests
 
-Clone and Run
-git clone https://github.com/yourusername/ai-crosschat-gui.git
-cd ai-crosschat-gui
-python crosschat_gui.py
 
 🖥 Usage
 
